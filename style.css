@@ -36,8 +36,17 @@ h1, h2,h3 {
 .color-primary {
     color: #2ca46d;
 }
+.bg-color-1{
+    background-color: #f6f5ed;
+}
+.bg-color-2{
+    background-color: #e6ffea;
+}
+.bg-color-3{
+    background-color: #efd6ff;
+}
 .section-padding {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 .button-link {
     color: #ffffff;
@@ -57,9 +66,28 @@ h1, h2,h3 {
 .banner-content p {
     margin: 50px 0 30px;
 }
+.banner-content small {
+    display: block;
+    margin-top: 20px;
+}
 .banner-image-box img {
     width: 100%;
     padding: 10%;
+}
+
+.service h1 {
+    text-align: center;
+}
+.service-box {
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 0 0 5px #1f1f1f34;
+}
+
+.image-icon {
+    max-width: 120px;
+    height: auto;
 }
 
 .footer-section {
