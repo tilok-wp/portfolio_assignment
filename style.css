@@ -61,3 +61,16 @@ h1, h2,h3 {
     width: 100%;
     padding: 10%;
 }
+
+.footer-section {
+   padding: 20px 5%;
+   text-align: center;
+   background-color: #191919;
+}
+.footer-section h3 {
+    font-size: 30px;
+    color: #c0c0c0;
+}
+.footer-section p {
+    color: #949494;
+}
