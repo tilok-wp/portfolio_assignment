@@ -12,15 +12,26 @@ h1, h2,h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     line-height: 0;
+    line-height: 1;
 }
 .flex-container {
     display: flex;
     padding: 0 5%;
 }
+
+.width-60 {
+    width: 60%;
+    margin: 0 15px;
+}
 .width-50 {
     width: 50%;
     margin: 0 15px;
 }
+.width-40 {
+    width: 40%;
+    margin: 0 15px;
+}
+
 .vartical-center {
     display: flex;
     flex-direction: column;
@@ -28,7 +39,6 @@ h1, h2,h3 {
 }
 .heading-primary {
     font-size: 50px;
-    line-height: 50px;
 }
 .heading-secondary {
     font-size: 24px;
@@ -47,6 +57,21 @@ h1, h2,h3 {
 }
 .section-padding {
     padding: 75px 0;
+}
+.heading-block {
+    padding-left: 30px;
+    border-left: 5px solid transparent;
+    border-image:  linear-gradient(#a6f8d3, #2ca46d) 45;
+    Border-image-slice: 1;
+}
+.heading-banner {
+    background-image: url(images/illustrators/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading-block {
+    padding-left: 20px;
+    border-left: 5px solid;
 }
 .button-link {
     color: #ffffff;
@@ -90,6 +115,13 @@ h1, h2,h3 {
     height: auto;
 }
 
+.feature-image-box img {
+    width: 100%;
+    height: auto;
+}
+.contact .heading-primary {
+    text-align: center;
+}
 .footer-section {
    padding: 20px 5%;
    text-align: center;
