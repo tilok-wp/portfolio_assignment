@@ -67,8 +67,7 @@ h1, h2,h3 {
     padding-left: 30px;
     border-left: 5px solid transparent;
     border-image:  linear-gradient(#a6f8d3, #2ca46d) 45;
-    Border-image-slice: 1;
-}
+    Border-image-slice: 1;}
 .heading-banner {
     background-image: url(images/illustrators/banner-bg.jpg);
     background-size: cover;
